@@ -119,13 +119,13 @@ p {
   margin-right: 10px;
   margin-left: 10px;
   padding: 8px;
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
   border-radius: 5px;
 }
-#exam-btn:active{
+/* #exam-btn:active{
   background-color: rgb(141, 5, 194);
-}
+} */
 #exam-btn:hover{
   background-color: rgb(6, 5, 5);
 }
