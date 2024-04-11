@@ -5,7 +5,6 @@
 }
 
 .App {
-  height: 100vh;
   text-align: center;
   background: #0a0110;
   background: linear-gradient(0deg, #0a0110, #2c033e);
@@ -97,3 +96,37 @@ p {
 .core-img{
   height: 85px;
 }
+#examples{
+  margin-top:27%;
+ 
+}
+#examples h3{
+  color: white;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+.exam-block{
+  border: 1px solid white;
+  margin: 0 370px 0 370px;
+  text-align: start;
+  padding: 10px;
+}
+#exam-btn{
+  font-size: 16px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#exam-btn:active{
+  background-color: rgb(141, 5, 194);
+}
+#exam-btn:hover{
+  background-color: rgb(6, 5, 5);
+}
+
