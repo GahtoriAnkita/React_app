@@ -1,12 +1,9 @@
 import React from 'react'
 
-function handleClick(){
-  console.log("Hello world!");
-}
-function TabButton({children}) {
+function TabButton({children, onSelect}) {
   return (
     <>
-    <button id='exam-btn' onClick={handleClick} >{children}</button>
+    <button id='exam-btn' onClick={onSelect} >{children}</button>
     </>
   )
 }

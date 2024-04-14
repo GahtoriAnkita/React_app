@@ -68,13 +68,17 @@ p {
   font-weight: 600;
   color: #573352;
 }
-
+#core-sect{
+  display: flex;
+  justify-content: center;
+  /* margin-top: 10px; */
+}
 .core {
   height: 330px;
   width: 780px;
   background-color: rgb(6, 0, 7);
-  position: absolute;
-  left: 370px;
+  /* position: absolute;
+  left: 370px; */
   margin-top: 30px;
   border-radius: 8px;
   color: rgb(81, 79, 79);
@@ -97,7 +101,7 @@ p {
   height: 85px;
 }
 #examples{
-  margin-top:27%;
+  margin-top:30px;
  
 }
 #examples h3{
@@ -106,7 +110,7 @@ p {
   padding-bottom: 10px;
 }
 .exam-block{
-  border: 1px solid white;
+  /* border: 1px solid white; */
   margin: 0 370px 0 370px;
   text-align: start;
   padding: 10px;
